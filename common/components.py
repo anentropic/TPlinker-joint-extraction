@@ -1,8 +1,6 @@
-from IPython.core.debugger import set_trace
 import torch
 import torch.nn as nn
 from torch.nn.parameter import Parameter
-import math
 
 class LayerNorm(nn.Module):
     def __init__(self, input_dim, cond_dim = 0, center = True, scale = True, epsilon = None, conditional = False,

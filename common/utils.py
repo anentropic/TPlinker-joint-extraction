@@ -1,9 +1,9 @@
-import re
-from tqdm import tqdm
-from IPython.core.debugger import set_trace
 import copy
 import json
 import os
+import re
+
+from tqdm import tqdm
 
 class DefaultLogger:
     def __init__(self, log_path, project, run_name, run_id, hyperparameter):
